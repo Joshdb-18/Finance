@@ -103,5 +103,5 @@ If, upon running flask, you see this error, odds are you (still) have flask runn
 By default, flask looks for a file called application.py in your current working directory (because we’ve configured the value of FLASK_APP, an environment variable, to be application.py). If seeing this error, odds are you’ve run flask in the wrong directory!
 
 
-# WARNING!!!
+# <span style="color: red;">WARNING!!!</span> ❎
 ## You shouldn't use this projects as your assignment on CS50 or you risk being removed from the program
