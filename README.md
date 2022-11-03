@@ -78,6 +78,16 @@ Visit the URL outputted by flask
 - `Index`: Displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also displays the user’s current cash balance along with a grand total (i.e., stocks’ total value plus cash).displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the current price of each stock, and the total value of each holding (i.e., shares times price). Also displays the user’s current cash balance along with a grand total (i.e., stocks’ total value plus cash).
 - `History`: Displays an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell. For each row, it makes clear whether a stock was bought or sold and include the stock’s symbol, the (purchase or sale) price, the number of shares bought or sold, and the date and time at which the transaction occurred.
 
+## Hints:
+- You should use [SQLAlchemy Core](http://docs.sqlalchemy.org/en/latest/index.html) or [Flask-SQLAlchemy](http://flask-sqlalchemy.pocoo.org/) (i.e., [SQLAlchemy ORM](http://docs.sqlalchemy.org/en/latest/index.html)) instead of cs50.SQL.
+- You may find [Flask documentation](https://flask.palletsprojects.com/en/1.1.x/quickstart/) or [Jinja documentation](http://jinja.pocoo.org/docs/dev/) helpful
+- You’re welcome to alter the aesthetics of the sites, as via:
+   - [Bootswatch](https://bootswatch.com/)
+   - [Bootstrap content](https://getbootstrap.com/docs/4.1/content/)
+   - [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) and/or
+   - [Memegen.link](https://memegen.link/)
+ 
+ 
 ## Personal touch to implement
 - Allow users to change their passwords.
 - Allow users to add additional cash to their account.
