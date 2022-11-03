@@ -1,5 +1,6 @@
 # Finance
 ### A website via which users can “buy” and “sell” stocks as per cs50 finance specifications
+![Finanve Image](https://cs50.harvard.edu/x/2021/psets/9/finance/finance.png)
 
 ## Configuring
 ### Before getting started on this, we’ll need to register for an API key in order to be able to query IEX’s data. To do so, follow these steps:
