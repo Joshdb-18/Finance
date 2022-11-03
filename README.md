@@ -97,11 +97,11 @@ Visit the URL outputted by flask
 - Have fun :wink:
 
 ## FAQ
-### OSError: [Errno 98] Address already in use
+### OSError: `[Errno 98]` Address already in use
 If, upon running flask, you see this error, odds are you (still) have flask running in another tab. Be sure to kill that other process, as with ctrl-c, before starting flask again. If you haven’t any such other tab, execute fuser -k 8080/tcp to kill any processes that are (still) listening on TCP port 8080.
-### ImportError: No module named ‘application’
+### ImportError: `No module named ‘application’`
 By default, flask looks for a file called application.py in your current working directory (because we’ve configured the value of FLASK_APP, an environment variable, to be application.py). If seeing this error, odds are you’ve run flask in the wrong directory!
 
 
-<span style="color:red; font-weigth: bolder;">WARNING!!!</span> 🔴❎
+# WARNING!!! 🔴❎
 ## You shouldn't use this projects as your assignment on CS50 or you risk being removed from the program
