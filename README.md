@@ -104,4 +104,4 @@ By default, flask looks for a file called application.py in your current working
 
 
 # WARNING!!! 🔴❎
-## You shouldn't use this projects as your assignment on CS50 or you risk being removed from the program
+## You shouldn't use this projects as your assignment on CS50 or you risk being removed from the program.
